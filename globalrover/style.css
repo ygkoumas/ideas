@@ -1,0 +1,91 @@
+body {
+	background: #BBB;
+	font-family: Arial;
+}
+
+body > div {
+	box-sizing: padding-box;
+	background: #FFF;
+	width: 320px;
+	height: 568px;
+	border: 1px solid black;
+	border-width: 30px 10px;
+	border-radius: 15px;
+	margin: auto;
+}
+
+body.map > div {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+div > div {
+	padding: 10px;
+}
+
+input,
+select,
+.inspect-radio {
+	margin: 10px 0 0 0;
+	display: block;
+	width: 80%;
+}
+
+input[type='radio'] {
+	display: inline;
+	width: 10px;
+}
+
+label {
+	display: block;
+}
+
+#header {
+	background: #5090cd;
+	color: #FFF;
+	max-height: 30px;
+	font-size: 125%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.input-item {
+	height: 36px;
+	border: 1px solid #AAA;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	color: #BBB;
+	box-sizing: border-box;
+}
+
+svg {
+	width: 20px;
+	height: 15px;
+}
+
+.input-item-title {
+	padding-left: 4px;
+	color: #999;
+}
+
+a {
+	box-sizing: padding-box;
+	position: relative;
+	top: 10px;
+	padding: 8px;
+	background: #5090cd;
+	color: #FFF;
+	height: 36px;
+	border: 1px solid #AAA;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+img {
+	position: relative;
+	top: 30px;
+	width: 102%;
+	left: -1px;
+}
