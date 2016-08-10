@@ -1,0 +1,5 @@
+.distance-calculator input,
+.distance-calculator select {
+	display: block;
+	margin-bottom: 1em;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Distance Calculator</title>
+		<link rel="stylesheet" type="text/css" href="static/css/distance-calculator.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="static/js/distance-calculator.js"></script>
+	</head>
+	<body>
+		<form class="distance-calculator" action="api/distance-calculator.php" method="post">
+			Start location name:
+			<input type="text" name="origins" value="South Ealing, London">
+			End location name:
+			<input type="text" name="destinations" value="Hammersmith, London">
+			Way to travel:
+			<select name="mode">
+				<option value="transit">Transit</option>
+				<option value="driving">Driving</option>
+				<option value="bicycling">Bicycling</option>
+				<option value="walking">Walking</option>
+			</select>
+			<input type="submit" value="Calculate the distance">
+			<div class="api-answer">
+			</div>
+		</form>
+	</body>
+</html>
